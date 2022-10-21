@@ -25,7 +25,6 @@ app.get('/bookonline', async(req, res) =>{
     const user = await new User({name,email,phone,location,product,comment})
     
     user.save().then(() => {
-        
         res.send(user)
     }).catch((e) => {
         res.send(e)
