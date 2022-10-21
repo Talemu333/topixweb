@@ -1,0 +1,116 @@
+body {
+    position: relative;
+}
+#nav1 > .ulnav > li{
+    margin-left: 80px;
+}
+#nav1 > .ulnav > li > .active{
+    color: blue;
+}
+#nav1 > .ulnav > li > a:hover{
+    color: rgb(65, 130, 243);
+    font-size: 20px;
+}
+#nav1 > .ulnav > li > a > span{
+    color: rgb(65, 130, 243);
+    font-size: 20px;
+    text-decoration: solid;
+}
+#section1{
+    background-image: url("images/water-splash-bottle-21576605.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 45px;
+    height: 700px;
+    max-height: 20%; 
+    display: flex;    
+}
+.carousel-inner > .item > img{
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    margin: auto; 
+    display: block;
+    
+}
+
+#section1 > .advt{
+    background-color: rgb(26, 20, 20, 0.6);
+    color: white;
+}
+#section1 > .advt > div {
+    margin-top: 30%;
+    text-align: center;
+    margin-left: 50%;
+}
+#section1 > div > h1{
+    font-weight: bolder;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#section2{
+    padding-top: 45px; 
+    height: 600px;
+    max-height: 600px; 
+    background-color: white;
+    color: rgb(33, 72, 241);
+}
+#section2 > h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-bottom: 20px;
+
+}
+#section3{
+    height: 600px;
+    max-height: 600px;
+    padding-top: 45px;  
+    background-color: white;
+    border-top: 1px solid blue;
+}
+#section3 > .prod > div{
+    text-align: center;
+}
+#section3 > .prod > div > img{
+    width: 300px;
+    height: 300px;
+}
+.cont {
+    padding-top: 5px;
+}
+.cont > form{
+    width: fit-content;
+    background-color: rgb(5, 250, 177); 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+#section4{
+    height: 600px;
+    max-height: 600px;
+    padding-top: 45px;  
+    background: linear-gradient(to left, white, rgb(64, 170, 228));
+}
+#section5{
+    height: 600px;
+    max-height: 600px;
+    padding-top: 10px;  
+    background-color: white;
+}
+#section5 > h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(31, 98, 243);
+}
+.resp{
+    color: rgb(19, 114, 247);
+    font-size: large;
+    text-align: center;
+    padding-top: 3px;
+    width: fit-content;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETwebsite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy = "scroll" data-target = ".navbar">
+    <nav class="nav navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbbar-header">
+                <button type = "button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">ETwater</a>
+            </div>
+            <div class="collapse navbar-collapse" id="nav1">
+                <ul class="nav navbar-nav ulnav" style="justify-content: space-between;">
+                    <li><a class="active" href="#section1">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Products & Services</a></li>
+                    <li><a href="#section4">Contact</a></li>
+                    <li><a href="#section5">Book Online</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-phone">09035091305</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="section1" class="container-fluid row">
+        <div class="col-lg-6 col-md-6 col-sm-6 advt">
+            <div>
+                <h1>ETERNAL PRAISE</h1>
+                <h4>Table Water</h4>
+                <h3>Gush Of Goodness</h3>
+            </div>
+            
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+
+        </div>
+    </div>
+
+    
+    <div id="section2" class="container-fluid row">
+        <h1>About</h1>
+        <div class="col-lg-5">
+
+        </div>
+        <div class="col-lg-7">
+            <p>
+                Started in 2021 with focus on pet processing. <br> Successful 
+                pioneering effort in launching “Eternal Praise Table Water” <br> which
+                is now a leading brand. <br> Through continuous innovation & latest 
+                technology, we offer <br> high-quality products, maintaining 
+                leading market position.
+
+
+            </p>
+        </div>
+    </div>
+
+    <div id="section3" class="container-fluid row">
+        <h1>WHAT WE DO</h1>
+        <div class="row prod">
+            <div class="col-lg-4">
+                <img src="images/brendan-church-4bFKX8G419Q-unsplash.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/water-splash-bottle-21576605.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alevision-co-1hkEig5s7gI-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="section4" class="container-fluid">
+        <h1>Contact</h1>
+        <p>content</p>
+    </div>
+    <div id="section5" class="container-fluid">
+        <h1>Book Online</h1>
+        
+        <div class="container cont row">
+            <div class="col-lg-4"></div>
+        
+            <form id="userform" class="container-fluid col-lg-8">
+                <div class="row">
+                    <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <input type="text" class="form-control input-lg" id="name" placeholder="add your name">
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-6">       
+                        <input type="email" class="form-control input-lg" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <input type="text" class="form-control input-lg" id="num" placeholder="Phone number">
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <input type="text" required class="form-control input-lg" id="location" placeholder="Location">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                        <input type="text" required class="form-control input-lg" id="prod" placeholder="Product">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="comment..." class="form-control input-lg" id="comment" rows="5"></textarea>
+                </div>
+                <button type="submit" id="button" class="btn btn-lg btn-primary">submit</button>
+            </form>
+            <p id="reply" class="resp"></p>
+            
+    
+        </div>
+
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
